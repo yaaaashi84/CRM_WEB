@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRM-Web</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>顧客一覧</h1>
+    <h1 class="red">顧客一覧</h1>
     <ul>
         {% for customer in customers %}
             <li>{{ customer.name }}さん {{ customer.age }}歳</li>
